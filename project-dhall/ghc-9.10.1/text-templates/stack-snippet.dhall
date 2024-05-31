@@ -4,6 +4,5 @@
   compiler: ghc-9.10.1
   allow-newer-deps:
     - cabal-doctest
-    - unliftio-core
   allow-newer: true
   ''

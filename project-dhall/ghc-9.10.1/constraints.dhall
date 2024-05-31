@@ -72,7 +72,7 @@
 , { dep = "trial", ver = "0.0.0.0" }
 , { dep = "trial-optparse-applicative", ver = "0.0.0.0" }
 , { dep = "trial-tomland", ver = "0.0.0.0" }
-, { dep = "unliftio-core", ver = "0.2.1.0" }
+, { dep = "unliftio-core", ver = "0.2.0.1" }
 , { dep = "unordered-containers", ver = "0.2.20" }
 , { dep = "validation-selective", ver = "0.2.0.0" }
 , { dep = "wl-pprint-annotated", ver = "0.1.0.1" }
