@@ -29,6 +29,7 @@ cabal.project.local
 # Updo
 .updo
 updo
+*.nix
 
 ### IDE/support
 # Vim
