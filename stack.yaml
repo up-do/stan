@@ -2,7 +2,6 @@ user-message: "WARNING: This stack project is generated."
 compiler: ghc-9.10.1
 allow-newer-deps:
   - cabal-doctest
-  - unliftio-core
 allow-newer: true
 
 resolver: ghc-9.10.1
@@ -94,7 +93,7 @@ extra-deps:
   - trial-0.0.0.0
   - trial-optparse-applicative-0.0.0.0
   - trial-tomland-0.0.0.0
-  - unliftio-core-0.2.1.0
+  - unliftio-core-0.2.0.1
   - unordered-containers-0.2.20
   - validation-selective-0.2.0.0
   - wl-pprint-annotated-0.1.0.1
