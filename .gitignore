@@ -26,6 +26,9 @@ cabal.project.local
 *.yaml.lock
 # HIE
 .hie/
+# Updo
+.updo
+updo
 
 ### IDE/support
 # Vim
