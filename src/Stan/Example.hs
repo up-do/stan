@@ -1,8 +1,13 @@
 {- HLINT ignore "Unused LANGUAGE pragma" -}
-{-# OPTIONS_GHC -Wno-unused-top-binds #-}
 
+{-# LANGUAGE CPP #-}
 {-# LANGUAGE NoUndecidableInstances #-}
-{-# LANGUAGE PatternSynonyms        #-}
+{-# LANGUAGE PatternSynonyms #-}
+
+{-# OPTIONS_GHC -Wno-unused-top-binds #-}
+#if MIN_VERSION_base(4,19,0)
+{-# OPTIONS_GHC -Wno-x-partial #-}
+#endif
 
 {- |
 Copyright: (c) 2020 Kowainik

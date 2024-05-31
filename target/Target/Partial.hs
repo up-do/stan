@@ -1,4 +1,9 @@
+{-# LANGUAGE CPP #-}
+
 {-# OPTIONS_GHC -Wno-missing-export-lists #-}
+#if MIN_VERSION_base(4,19,0)
+{-# OPTIONS_GHC -Wno-x-partial #-}
+#endif
 
 module Target.Partial where
 
